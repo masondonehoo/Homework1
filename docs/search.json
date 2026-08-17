@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Data Science.html",
+    "href": "Data Science.html",
+    "title": "About Data Science",
+    "section": "",
+    "text": "I think being a data scientist is about taking raw data and transforming it into something that is able to answer questions and provide statistical insight about the data. Data scientists and statisticians are very similar as data scientists use statistical methods in order to learn something about the data they are observing. Statistics and computer programming are the backbone that make up the field of data science. The main difference between the two is that data scientists don’t necessarily need to know how the models they are fitting work, they just need to be able to understand the output and to explain it to another person. Statisticians need to understand how to fit these models without computer programming. I definitely see myself more on the statistician side. I love learning about and trying to understand the different models and plots that we utilize."
+  },
+  {
+    "objectID": "Data Science.html#section-1",
+    "href": "Data Science.html#section-1",
+    "title": "About Data Science",
+    "section": "",
+    "text": "I think being a data scientist is about taking raw data and transforming it into something that is able to answer questions and provide statistical insight about the data. Data scientists and statisticians are very similar as data scientists use statistical methods in order to learn something about the data they are observing. Statistics and computer programming are the backbone that make up the field of data science. The main difference between the two is that data scientists don’t necessarily need to know how the models they are fitting work, they just need to be able to understand the output and to explain it to another person. Statisticians need to understand how to fit these models without computer programming. I definitely see myself more on the statistician side. I love learning about and trying to understand the different models and plots that we utilize."
+  },
+  {
+    "objectID": "Data Science.html#section-2",
+    "href": "Data Science.html#section-2",
+    "title": "About Data Science",
+    "section": "Section 2",
+    "text": "Section 2\nIn this R code chunk I am saving the computed kernel density estimates of the Petal.Width variable from the iris dataset in an object named “y”.\n\ny &lt;- density(iris$Petal.Width)\n\nThis code chunk gives the class, type, and structure of the object I created above.\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nThis code chunk plots the object “y”.\n\n\n\n\n\nDensity Plot of Petal Width"
+  }
+]
